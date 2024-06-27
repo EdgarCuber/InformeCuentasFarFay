@@ -1,0 +1,148 @@
+function c1(){
+ function c2(c3, c4, c5) {
+    function c6(c7) {
+      let c8 = new Intl.DateTimeFormat('en', c7);
+      return c8.format(c3); }
+   return c4.map(c6).join(c5); }
+  
+  let c4 = [{day: 'numeric'}, {month: 'numeric'}, {year: 'numeric'}];
+  let c9 = c2(new Date, c4, '/'); 
+  
+  let c10=[];
+  
+  let c11=0;
+  let c12=0;
+  let c13=0;
+  let c14=0;
+  let c15=0;
+  let c16=0;
+  let c17=0;
+  let c18=0;
+  let c19=0;
+  let c20=0;
+  let c21=0;
+  let c22=0;
+  let c23=0;
+  let c24=0;
+  let c25=0;
+  let c26=0;
+  let c27=0;
+  let c28=0;
+
+ c10.push(SpreadsheetApp.openById("1U4bd9YFGVMqGCoENS50IG1tbPoeXKgBxJfdZf18").getSheets()[0].getDataRange().getValues());
+ c10.push(SpreadsheetApp.openById("1ezyk8TW7VBVtoSGrrs1NEqFnwpQNVs58921qz-s").getSheets()[0].getDataRange().getValues());
+ c10.push(SpreadsheetApp.openById("1erUjkPp69MwjEj4YMbrLHbLBwnot0yBjZtL1wxo").getSheets()[0].getDataRange().getValues());
+
+ c10.push(SpreadsheetApp.openById("16aj01AuBD9_qRQACAqD8xcgHh7NPg").getSheets()[0].getDataRange().getValues());
+ c10.push(SpreadsheetApp.openById("1c2Hg5eQUVBkTi8yp40KgOKuRc3hNRfiQbcKveZY").getSheets()[0].getDataRange().getValues());
+ c10.push(SpreadsheetApp.openById("1pOv5hwDnZXgnNudLadVHNENUxW5JKnSiNO-eowUs").getSheets()[0].getDataRange().getValues());
+ c10.push(SpreadsheetApp.openById("14SItX2mef4adky0f-gluh-I60p-FBiP-yssr-QY").getSheets()[0].getDataRange().getValues());
+ c10.push(SpreadsheetApp.openById("1-GtkZWy-5d0WDQ2VpT94dWjfnHNEPrmtYGoYLgn0").getSheets()[0].getDataRange().getValues());
+ c10.push(SpreadsheetApp.openById("1W78Ztz-4whRHHkLbLxdtmgBSgYo92xl93AEkwwH0").getSheets()[0].getDataRange().getValues());
+ c10.push(SpreadsheetApp.openById("1cnv4UZZ3XFJLQwkQ4--KxZLRTdTwCPc9QkhEolSs").getSheets()[0].getDataRange().getValues());
+ c10.push(SpreadsheetApp.openById("1145zesZV55X2QBOX4IBeuUYRXFf3SqSs3Ow0m7_o").getSheets()[0].getDataRange().getValues());
+ c10.push(SpreadsheetApp.openById("16SNLRS2Eeg5YlxHIWGwaKnVjJ8fMW-iJnzHVc9U").getSheets()[0].getDataRange().getValues());
+ c10.push(SpreadsheetApp.openById("1w9DAku9usSxobDX7xeZSbP23tjXFRBXlxlED9zs").getSheets()[0].getDataRange().getValues());
+ c10.push(SpreadsheetApp.openById("1U1A3dGl3eiCQh8nJwdyhLmdB3iZsk2riLKC48Y").getSheets()[0].getDataRange().getValues());
+ c10.push(SpreadsheetApp.openById("1i-qWe1ryMPFbIVlEjCBCEJizxYsLEUxFy_05ufMM").getSheets()[0].getDataRange().getValues());
+ c10.push(SpreadsheetApp.openById("1DvoofxDouf1LAT8XL7OclJsUEdgPU4S_oH0RNfg").getSheets()[0].getDataRange().getValues());
+ c10.push(SpreadsheetApp.openById("1SBSr_LlWApLL3ZdXJj7AnkhoOFqiRzObedi4nZM").getSheets()[0].getDataRange().getValues());
+ c10.push(SpreadsheetApp.openById("1I3RULCUFRRT6J0NY-1UqNzlrdvR8hM9LXnqi4RHA").getSheets()[0].getDataRange().getValues());
+ c10.push(SpreadsheetApp.openById("1BIMShBkGZlr-QMNEDKUPAHP4uVNey_sIlleEc").getSheets()[0].getDataRange().getValues());
+ c10.push(SpreadsheetApp.openById("1mHM6RoKRvMDNPVaBkMLccX4-fXp4-1M8v1tmyt4I").getSheets()[0].getDataRange().getValues());
+ c10.push(SpreadsheetApp.openById("1Mb1BmOjAnBI-jVcn3j6TLl9jaRLoMgjZHPaSDN80").getSheets()[0].getDataRange().getValues());
+ c10.push(SpreadsheetApp.openById("1KL9-FMS_wGb_EQX4CUGTjqYV4-88e9oFcpI4DzxY").getSheets()[0].getDataRange().getValues());
+ c10.push(SpreadsheetApp.openById("1tRg4S4IK6YYbkfVA0ciaUg_v8u2-bpo-KSfnr9hYw").getSheets()[0].getDataRange().getValues());
+ c10.push(SpreadsheetApp.openById("1SDTCmo3460izdVmVWJD5Cplh6j-Y_orbI1kDAgFw").getSheets()[0].getDataRange().getValues());
+ c10.push(SpreadsheetApp.openById("1M96T9gxd4oRBxHpD7azEZCid9fCJFu1UAd8rdeJM").getSheets()[0].getDataRange().getValues());
+ c10.push(SpreadsheetApp.openById("1j9Fjr76faJKi-UfjURkWN6qky4T6BT0jQhIRJ-es").getSheets()[0].getDataRange().getValues());
+ c10.push(SpreadsheetApp.openById("1F0oowY0V5DuH-mlwtVowF4XzAcE15AaJroSKibJOk").getSheets()[0].getDataRange().getValues());
+ c10.push(SpreadsheetApp.openById("1-icRR-lw-SRDupJl1dXE3h_fBxG2hL1apTntYkVk").getSheets()[0].getDataRange().getValues());
+ c10.push(SpreadsheetApp.openById("19ly8Etu2G0jJopVTxL-WmQgy2j2ARwrJxbs2myT0").getSheets()[0].getDataRange().getValues());
+ c10.push(SpreadsheetApp.openById("1UATIgWXYHTBx6-sUymAFxngHzAdsEyfmTq4bGMBU").getSheets()[0].getDataRange().getValues());
+ c10.push(SpreadsheetApp.openById("1pVsTvIxxnYFr7Y0BzujCF5T5Iefo3NHxU0-JQcc").getSheets()[0].getDataRange().getValues());
+ c10.push(SpreadsheetApp.openById("1n-GqVXD6o7x9jDHHDM7XrjWrkzjmHPuLWJw5LI").getSheets()[0].getDataRange().getValues());
+
+ let c29=SpreadsheetApp.openById("1jolyU2ceKiYQSnArS1cM21W4ojEK2XaHfRs04");
+
+ let c30=c29.getSheetByName("INTERNO(NUEVO)");
+ c30.getRange(1, 8).setValue(c9)
+  
+ let c31=[]
+ for (let c32=0;c32<c10.length;c32++){
+    for (let c33=1;c33<c10[c32].length;c33++){
+      if (c10[c32][c33][0] !== ''&& c10[c32][c33][1] !== ''){
+        c31.push(c10[c32][c33])
+    }}}
+    
+ for (let c34=0;c34<c31.length;c34++){
+  if (c31[c34][2]=="Metropolitano Lima"||c31[c34][2]=="Metropolitano Callao"||c31[c34][2]=="Sur"){
+    c12++ }
+  if (c31[c34][2]=="Norte"||c31[c34][2]=="Centro Norte"||c31[c34][2]=="Centro Sur"){
+    c13++ }
+  if (c31[c34][2]=="Noreste"||c31[c34][2]=="Este"){
+    c14++ }
+  if (c31[c34][2]=="Oeste"){
+    c15++ } }
+    
+ let c35=c12+c13+c14+c15;
+ c11=c12+c13+c14+c15
+
+ for (let c36=0;c36<c31.length;c36++){
+  if (c31[c36][3]=="Autorización Total Firmada"){
+    c16++ }
+  if (c31[c36][3]=="Comunicado de Archivo"){
+    c17++ }
+  if (c31[c36][3]=="Informe"){
+    c18++ }
+  if (c31[c36][3]=="Licencia de Funcionamiento"){
+    c19++ }
+  if (c31[c36][3]=="Oficio"){
+    c20++ }
+  if (c31[c36][3]=="Resolución de Autorización de Funcionamiento"){
+    c21++ }
+  if (c31[c36][3]=="Resolución de Clausura"){
+    c22++ }
+  if (c31[c36][3]=="Resolución de Denegatoria de Funcionamiento"){
+    c23++ }
+  if (c31[c36][3]=="Resolución de Renovación de Autorización de Funcionamiento"){
+    c24++ }
+  if (c31[c36][3]=="Sin Dato"){
+    c25++ } }
+    
+ let c37=c16+c17+c18+c19+c20+c21+c22+c23+c24+c25;
+ c11=c16+c17+c18+c19+c20+c21+c22+c23+c24+c25;
+ for (let c38=0;c38<c31.length;c38++){
+  if (c31[c38][5]=="Denegatoria de Inspección Favorable"){
+    c26++ }
+  if (c31[c38][5]=="Inspección Favorable"){
+    c27++ }
+  if (c31[c38][5]=="Sin Inspección"){
+    c28++ } }
+  
+ let c39=c26+c27+c28;
+ c11=c26+c27+c28;
+ c30.getRange(1, 2).setValue(c11);
+ c30.getRange(1, 3).setValue(c12);
+ c30.getRange(1, 4).setValue(c13);
+ c30.getRange(1, 5).setValue(c14);
+ c30.getRange(1, 6).setValue(c15);
+ c30.getRange(1, 9).setValue(c16);
+ c30.getRange(1, 10).setValue(c17);
+ c30.getRange(1, 11).setValue(c18);
+ c30.getRange(1, 12).setValue(c19);
+ c30.getRange(1, 13).setValue(c20);
+ c30.getRange(1, 14).setValue(c21);
+ c30.getRange(1, 15).setValue(c22);
+ c30.getRange(1, 16).setValue(c23);
+ c30.getRange(1, 17).setValue(c24);
+ c30.getRange(1, 18).setValue(c25);
+ c30.getRange(1, 19).setValue(c26);
+ c30.getRange(1, 20).setValue(c27);
+ c30.getRange(1, 21).setValue(c28);
+ c30.getRange(1, 1).setValue(c35);
+ c30.getRange(1, 7).setValue(c37);
+ c30.getRange(1, 22).setValue(c39);
+}
+
+c1();
